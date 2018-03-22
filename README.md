@@ -1,2 +1,3 @@
 # NewsApp
 这是一个模仿今日头条的新闻App，目前已完成手机号登陆注册，修改个人资料，发布动态等功能模块，还在完善中....
+![image](/Users/alexanderlee/Downloads/7C980442-D08D-4C1D-B8BD-F1A3D7D2BA61.png)
