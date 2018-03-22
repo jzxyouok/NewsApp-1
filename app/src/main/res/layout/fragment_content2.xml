@@ -1,0 +1,226 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/colorGreen"
+            app:layout_scrollFlags="scroll">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="ssssssss"
+                android:background="@color/colorWhite">
+
+                <ImageButton
+                    android:id="@+id/btn_back_fgcomment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:background="@null"
+                    android:src="@mipmap/point2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="微头条"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textSize="18sp" />
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <View
+            style="@style/user_divider7"
+            android:layout_alignBottom="@+id/title_relative_fgcomment" />
+
+        <LinearLayout
+            android:id="@+id/gouserhome_space"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@+id/title_relative_fgcomment"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle_ivm_fgcomment"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/bird3"
+                app:civ_border_color="@color/colorGrey"
+                app:civ_border_width="0.3dp" />
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/circle_ivm_fgcomment"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/username_space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="李笑阳"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_createtime_fgcomment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ssssssss"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/follow_fgcomment"
+                android:layout_width="56dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:alpha="0.75"
+                android:background="@drawable/follow_tv"
+                android:gravity="center"
+                android:text="关注"
+                android:textColor="@drawable/follow_tv_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view"
+                style="@style/user_divider8"
+                android:layout_below="@id/readcounter_space" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/view"
+                android:layout_marginLeft="12sp"
+                android:layout_marginRight="12sp">
+
+                <TextView
+                    android:id="@+id/commentcounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="评论"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/commentcounter"
+                    android:text="3888"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView2"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toStartOf="@+id/textView2"
+                    android:text="3888"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="转发"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider"
+                style="@style/user_divider7"
+                android:layout_below="@id/relativeLayout" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_fgcomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/comment_fgcomment"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="25dp"
+            android:paddingLeft="8dp"
+            android:drawableLeft="@mipmap/pen"
+            android:paddingRight="8dp"
+            android:drawableRight="@mipmap/smileface"
+            android:layout_weight="1"
+            android:alpha="0.4"
+            android:background="@drawable/linearlayout_stroke14" />
+
+        <ImageView
+            android:id="@+id/like_fgcomment"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="4dp"
+            android:src="@drawable/likes" />
+
+        <ImageView
+            android:id="@+id/foword_fgcomment"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/forword" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BmobNewsapp</string>
+    <string name="news_one_title">一期一遇，始终如一</string>
+    <string name="news_one_desc">关于你 关于你，我有太多东西关于你。 清醒的时候放不下矜持，不敢说我喜欢你，只有在某个夜晚多愁善感又萦绕在心头，或是朋友聚会上的大醉，才敢借着情绪说，我喜欢你，喜欢了好久好久。 关于你，2012年的九月，那是我们认识的季节，在四十多平米的教室里，我认识暗恋</string>
+
+    <string name="news_two_title">岁月如星河</string>
+    <string name="news_two_desc">岁月就象一条河，左岸是无法忘却的回忆，右岸是值得把握的青春年华，中间飞快流淌的，是年轻隐隐的伤感。世间有许多美好的东西，但真正属于自己的却并不多。看庭前花开花落，荣辱不惊，望天上云卷云舒，去留无意。在这个纷绕的世界里，能够学会用一颗平常的心去对待周围的一切，也是一种境界！</string>
+
+    <string name="news_three_title">千年等候只为你</string>
+    <string name="news_three_desc">曾经在千年树下等候，只求你回眸一笑，曾经在菩提下焚香，只为等一世轮回的相遇。阡陌红尘，终究一场繁花落寞，回忆在岁月中飘落了谁的眼泪，往事在时间中飘落谁的忧伤。如烟往事，不知谁飘落了谁的相思，如梦的回忆，不知谁飘落了谁的等待。与你作别，不问曾经伤痛几何。</string>
+
+    <string name="news_four_title">五月的微风</string>
+    <string name="news_four_desc">五月的微风，飘着道边槐花的清芬，轻轻地吹拂着路人的面颊与发鬓，吹拂着人们的胸襟，温柔的慰抚，有如慈母的双手。</string>
+</resources>

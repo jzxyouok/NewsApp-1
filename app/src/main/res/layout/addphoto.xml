@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.alexanderlee.bmob_test.SquareRelativelayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/add_imageview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:padding="5dp"/>
+
+    <CheckBox
+        android:id="@+id/cancel_checkbox"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@id/add_imageview"
+        android:layout_alignTop="@id/add_imageview"
+        android:background="@drawable/quit"
+        android:button="@null"/>
+</com.example.alexanderlee.bmob_test.SquareRelativelayout>
